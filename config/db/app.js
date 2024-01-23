@@ -1,14 +1,14 @@
-const express = require('express')
-const userRouter = require('./routers/user')
-const itemRouter = require('./routers/item')
-const cartRouter = require('./routers/cart')
-require('./db/mongoose')
+import express, { json } from 'express'
+import userRouter from './routers/user'
+import itemRouter from './routers/item'
+import cartRouter from './routers/cart'
+import './db/mongoose'
 
 const port = process.env.PORT 
 
 const app = express()
 
-app.use(express.json())
+app.use(json())
 app.use(userRouter)
 app.use(itemRouter)
 app.use(cartRouter)
@@ -16,6 +16,6 @@ app.use(cartRouter)
 
 
 
-app.listen(port, () => {
-    console.log("server listening on port " + port)
-    })
+app.listen(3000, function() {
+    console.log("server listening on port " + 3000)
+    });
