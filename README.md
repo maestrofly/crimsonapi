@@ -42,3 +42,5 @@ HIGH LEVEL OVERVIEW
 6. Document your API : Create clear and comprehensive documentation that explains how to use your API including available endpoints, request/response formats and any required authentication.
 
 Remember building an API can be complex so its important to have a solid understanding of JAVASCRIPT, server-side development and RESTFUL API principles.
+
+TO START DEVELOPMENT, YOU NEED A PACKAGE MANAGEMENT
